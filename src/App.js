@@ -12,14 +12,14 @@ import './App.css';
 const particlesOptions = {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 40,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 200
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#gggggg"
     },
     "shape": {
       "type": "circle",
@@ -32,8 +32,8 @@ const particlesOptions = {
       },
       "image": {
         "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "width": 20,
+        "height": 20
       }
     },
     "opacity": {
@@ -51,14 +51,14 @@ const particlesOptions = {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 80,
+        "speed": 55,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 300,
+      "distance": 100,
       "color": "#ffffff",
       "opacity": 0.4,
       "width": 2
@@ -73,8 +73,8 @@ const particlesOptions = {
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "rotateX": 500,
+        "rotateY": 200
       }
     }
   },
@@ -93,20 +93,20 @@ const particlesOptions = {
     },
     "modes": {
       "grab": {
-        "distance": 800,
+        "distance": 500,
         "line_linked": {
           "opacity": 1
         }
       },
       "bubble": {
-        "distance": 800,
-        "size": 80,
+        "distance": 500,
+        "size": 30,
         "duration": 2,
         "opacity": 0.8,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 150,
         "duration": 0.4
       },
       "push": {
