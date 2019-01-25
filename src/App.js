@@ -18,37 +18,8 @@ const particlesOptions = {
         value_area: 800
       }
     }
-  },
-  move: {
-    enable: true,
-    speed: 12,
-    direction: "none",
-    random: false,
-    straight: false,
-    out_mode: "out",
-    bounce: false,
-    attract: {
-      enable: false,
-      rotateX: 600,
-      rotateY: 1200
-    }
-  },
-  interactivity: {
-    detect_on: "canvas",
-    events: {
-      onhover: {
-        enable: false,
-        mode: "repulse"
-      },
-      onclick: {
-        enable: true,
-        mode: "push"
-      },
-      resize: true
-    }
   }
 }
-
 
 const initialState = {
   input: '',
