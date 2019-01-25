@@ -64,7 +64,7 @@ const particlesOptions = {
       direction:"none",
       random: false,
       straight: false,
-      out_mode: out,
+      out_mode: "out",
       bounce: false,
       attract: {
         enable: false,
